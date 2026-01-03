@@ -1,20 +1,20 @@
 # District List Declarations
-distOne = ["Del Norte", "Humboldt", "Eureka", "Mendocino", "Lake"]
-distTwo = ["Siskiyou", "Modoc", "Lassen", "Shasta", "Trinity", "Tehama", "Plumas"]
-distThree = ["Glenn", "Butte Sierra", "Colusa", "Yuba", "Nevada", "Sutter", "Placer", "El Dorado", "Sacramento", "Yolo"]
-distFour = ["Sonoma", "Napa", "Marin", "Solano", "Contra Costa", "Alameda", "Santa Clara"]
-distFive = ["San Benito", "Monterey", "Santa Barbara", "San Luis Obispo"]
-distSix = ["Madera", "Fresno", "Tulare", "Kings", "Kern"]
-distSeven = ["Ventura", "Los Angeles"]
-distEight = ["San Bernardino", "Riverside"]
-distNine = ["Inyo", "Mono"]
-distTen = ["Alpine", "Amador", "Calaveras", "San Joaquin", "Tuolumne", "Mariposa", "Merced", "Stanislaus"]
-distEleven = ["San Diego", "Imperia"]
-distTwelve = ["Orange"]
+distOne = ["DEL NORTE", "HUMBOLDT", "EUREKA", "MENDOCINO", "LAKE"]
+distTwo = ["SISKIYOU", "MODOC", "LASSEN", "SHASTA", "TRINITY", "TEHEMA", "PLUMAS"]
+distThree = ["GLENN", "BUTTE", "SIERRA" "COLUSA", "YUBA", "NEVADA", "SUTTER", "PLACER", "EL DORADO", "SACRAMENTO", "YOLO"]
+distFour = ["SONOMA", "NAPA", "MARIN", "SOLANO", "CONTRA COSTA", "ALAMEDA", "SANTA CLARA"]
+distFive = ["SAN BENITO", "MONTEREY", "SANTA BARBARA", "SAN LUIS OBISPO"]
+distSix = ["MADERA", "FRESNO", "TULARE", "KINGS", "KERN"]
+distSeven = ["VENTURA", "LOS ANGELES"]
+distEight = ["SAN BERNARDINO", "RIVERSIDE"]
+distNine = ["INYO", "MONO"]
+distTen = ["ALPINE", "AMADOR", "CALAVERAS", "SAN JOAQUIN", "TUOLUMNE", "MARIPOSA", "MERCED", "STANISLAUS"]
+distEleven = ["SAN DIEGO", "IMPERIAL"]
+distTwelve = ["ORANGE"]
 
 # User Input String Validation
 while True:
-    countyInput = input("Enter a California county: ")
+    countyInput = input("Enter a California county: ").upper()
 
     try: 
         countyInput = int(countyInput)
