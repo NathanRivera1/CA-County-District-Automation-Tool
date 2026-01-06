@@ -1,6 +1,6 @@
 # District List Declarations
 distOne = ["DEL NORTE", "HUMBOLDT", "EUREKA", "MENDOCINO", "LAKE"]
-distTwo = ["SISKIYOU", "MODOC", "LASSEN", "SHASTA", "TRINITY", "TEHEMA", "PLUMAS"]
+distTwo = ["SISKIYOU", "MODOC", "LASSEN", "SHASTA", "TRINITY", "TEHAMA", "PLUMAS"]
 distThree = ["GLENN", "BUTTE", "SIERRA" "COLUSA", "YUBA", "NEVADA", "SUTTER", "PLACER", "EL DORADO", "SACRAMENTO", "YOLO"]
 distFour = ["SONOMA", "NAPA", "MARIN", "SOLANO", "CONTRA COSTA", "ALAMEDA", "SANTA CLARA"]
 distFive = ["SAN BENITO", "MONTEREY", "SANTA BARBARA", "SAN LUIS OBISPO"]
@@ -61,3 +61,4 @@ if countyInput in distEleven:
 
 if countyInput in distTwelve:
     print(f"{countyInput} is in district 12")
+
