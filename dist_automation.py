@@ -12,6 +12,7 @@ distTen = ["ALPINE", "AMADOR", "CALAVERAS", "SAN JOAQUIN", "TUOLUMNE", "MARIPOSA
 distEleven = ["SAN DIEGO", "IMPERIAL"]
 distTwelve = ["ORANGE"]
 
+
 # User Input String Validation
 while True:
     countyInput = input("Enter a California county: ").upper()
@@ -41,7 +42,7 @@ if countyInput in distFive:
     print(f"{countyInput} is in district 05")
 
 if countyInput in distSix:
-    print(f"{countyInput} is in district 06")
+    print(f"{countyInput} is in district 06, BE AWARE THAT CERTAIN ROUTES GET CODED TO DISTRICT 09")
 
 if countyInput in distSeven:
     print(f"{countyInput} is in district 07")
@@ -60,4 +61,3 @@ if countyInput in distEleven:
 
 if countyInput in distTwelve:
     print(f"{countyInput} is in district 12")
-    
